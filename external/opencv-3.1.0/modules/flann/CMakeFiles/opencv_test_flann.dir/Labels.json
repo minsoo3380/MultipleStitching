@@ -1,0 +1,42 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/kms/SWPRO/MultipleStitching/external/opencv-3.1.0/modules/flann/test/test_lshtable_badarg.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_flann",
+				"AccuracyTest"
+			]
+		},
+		{
+			"file" : "/home/kms/SWPRO/MultipleStitching/external/opencv-3.1.0/modules/flann/test/test_main.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_flann",
+				"AccuracyTest"
+			]
+		},
+		{
+			"file" : "/home/kms/SWPRO/MultipleStitching/external/opencv-3.1.0/modules/flann/test/test_precomp.hpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_flann",
+				"AccuracyTest"
+			]
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Main",
+			"opencv_flann",
+			"AccuracyTest"
+		],
+		"name" : "opencv_test_flann"
+	}
+}
