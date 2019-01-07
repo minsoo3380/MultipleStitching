@@ -1,6 +1,6 @@
-SRC = ../../../src/ImgStc/step1
-OBJ = ../../../obj/ImgStc/step1
-BIN = ../../../bin/ImgStc/step1
+SRC = ../../../src/ImgStc/lib_test
+OBJ = ../../../obj/ImgStc/lib_test
+BIN = ../../../bin/ImgStc/lib_test
 
 HEADER = $(SRC)/cvstc.hpp
 
