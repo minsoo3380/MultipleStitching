@@ -1,10 +1,10 @@
-SRC = ../../../src/ImgStc/lib_test
-OBJ = ../../../obj/ImgStc/lib_test
-BIN = ../../../bin/ImgStc/lib_test
+SRC = ../../../src/ImgStc/single_stitching
+OBJ = ../../../obj/ImgStc/single_stitching
+BIN = ../../../bin/ImgStc/single_stitching
 
-HEADER = $(SRC)/cvstc.hpp
+HEADER = $(SRC)/H_single_stc.hpp
 
-FUNC_OBJ = $(OBJ)/stitching.o $(OBJ)/stc_main.o
+FUNC_OBJ = $(OBJ)/single_stitching.o $(OBJ)/main.o
 
 all : stitching
 
@@ -13,11 +13,12 @@ stitching : $(FUNC_OBJ)
 	sudo mv -f $(@) $(BIN)/.
 
 $(OBJ)/stc_main.o : $(HEADER) $(SRC)/stc_main.cpp
-	sudo g++ -c $(SRC)/stc_main.cpp; sudo mv stc_main.o $(OBJ)
+	sudo g++ -c $(SRC)/main.cpp; sudo mv main.o $(OBJ)
 
 $(OBJ)/stitching.o : $(HEADER) $(SRC)/stitching.cpp
-	sudo g++ -c $(SRC)/stitching.cpp;sudo mv stitching.o $(OBJ)
+	sudo g++ -c $(SRC)/single_stitching.cpp;sudo mv single_stitching.o $(OBJ)
 
 clean :
 	sudo rm -rf $(OBJ)/*
 	sudo rm -rf $(BIN)/*
+
