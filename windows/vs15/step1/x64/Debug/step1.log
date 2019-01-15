@@ -1,0 +1,4 @@
+﻿  main.cpp
+e:\anything\swpro\opencv\opencv 2.4.13\build\include\opencv2\stitching\detail\motion_estimators.hpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  step1.vcxproj -> E:\Users\minsoo\Documents\Visual Studio 2015\Projects\opencv\Stitching\step1\x64\Debug\step1.exe
+  step1.vcxproj -> E:\Users\minsoo\Documents\Visual Studio 2015\Projects\opencv\Stitching\step1\x64\Debug\step1.pdb (Full PDB)
